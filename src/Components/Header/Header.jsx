@@ -1,5 +1,5 @@
 
-
+import profile from '../../assets/profile.png'
 const Header = () => {
     return (
         <div>
@@ -14,7 +14,7 @@ const Header = () => {
         <div className="w-10 rounded-full">
           <img
             alt=""
-            src="../../assets/profile.png" />
+            src={profile} />
         </div>
       </div>
       
